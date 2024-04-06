@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <!--
+     android:background="@color/thePurple"
+     android:orientation="horizontal"
+    -->
+    <androidx.cardview.widget.CardView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/cadiBB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:layout_gravity="center"
+        app:cardCornerRadius="18dp"
+        app:cardElevation="8dp"
+        app:cardBackgroundColor="#BE73F3"
+        >
+
+        <LinearLayout
+            android:id="@+id/linearCAr2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            >
+
+        <TextView
+            android:id="@+id/daimei"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+
+            android:fontFamily="@font/anaheim"
+            android:paddingLeft="15dp"
+            android:paddingTop="15dp"
+            android:paddingBottom="15dp"
+            android:text="abcd"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/tangosu"
+
+            android:layout_width="match_parent"
+
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:fontFamily="@font/anaheim"
+            android:paddingLeft="10dp"
+            android:paddingTop="15dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="15dp"
+            android:text="1888888888888"
+            android:textSize="25dp" />
+    <!--android:autoSizeTextType="uniform"
+      android:textSize="25dp"
+
+    -->
+</LinearLayout>
+  </androidx.cardview.widget.CardView>
